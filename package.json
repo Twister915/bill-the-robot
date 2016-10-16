@@ -1,0 +1,26 @@
+{
+  "name": "bill-the-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "babel-node $NODE_DEBUG_OPTION bin/run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "chalk": "^1.1.3",
+    "lodash": "^4.16.4",
+    "lowdb": "^0.13.1",
+    "moment": "^2.15.1",
+    "net-ping": "^1.2.0",
+    "node-telegram-bot-api": "^0.24.0",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0"
+  }
+}
